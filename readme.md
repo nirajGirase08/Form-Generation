@@ -1,73 +1,19 @@
-# Form Validation Project
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Website-brightgreen)](https://rajatrawal.github.io/form-validation-js/)
-[![GitHub Repository](https://img.shields.io/badge/GitHub%20Repo-Form%20Validation%20Project-green)](https://github.com/rajatrawal/form-validation-js)
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-[![HTML](https://img.shields.io/badge/HTML-5-red)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-4-purple)](https://getbootstrap.com/)
-
-Welcome to the "Form Validation Project"! This web application allows you to validate form input using regular expressions (regex) with HTML, CSS, JavaScript, and Bootstrap. Ensure the data entered into your forms is accurate and correctly formatted.
-
-## Preview of Project
-![Capture](https://github.com/rajatrawal/form-validation-js/assets/72153827/6a64c851-369a-4c30-9f3c-f5bd9c9be8b8)
-
-## About This Project
-
-The "Form Validation Project" is designed to simplify the process of validating user inputs in forms. It uses regular expressions to check the correctness and formatting of data, such as emails, phone numbers, and more.
-
-## Explore the Project
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Website-brightgreen)](https://rajatrawal.github.io/form-validation-js/)
-
-## Features
-
-- **User-Friendly Interface**: The application provides an intuitive and easy-to-use interface for form validation.
-
-- **Regex Validation**: Data entered in the form fields is validated using regular expressions to ensure accuracy.
-
-- **Multiple Validators**: Supports various validation types, including email, phone number, and more.
-
-- **Feedback Messages**: Users receive clear feedback messages regarding the correctness of their inputs.
-
-- **Responsive Design**: The app works seamlessly on various devices and screen sizes.
-
-## Technologies Used
-
-This project leverages the following technologies:
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Bootstrap](https://getbootstrap.com/)
-
-## Installation
-
-To run this project locally on your machine, follow these steps:
-
-1. Clone the repository to your local machine using this command:
-
-   ```shell
-   git clone https://github.com/rajatrawal/form-validation-js.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```shell
-   cd form-validation-js
-   ```
-
-3. Open the `index.html` file in your preferred web browser to start using the Form Validation Project.
-
-
-## Validate with Ease
-
-Experience the convenience and power of the Form Validation Project. Ensure accurate and properly formatted data in your forms. Visit the [Live Demo](https://rajatrawal.github.io/form-validation-js/) and enjoy an efficient way to validate user inputs.
-
-## Contribute
-
-If you'd like to contribute to this project or have suggestions for improvement, please feel free to submit issues or pull requests on [GitHub](https://github.com/rajatrawal/form-validation-js).
-
-Thank you for exploring the "Form Validation Project"! We hope this application simplifies form validation for you. 📝🚀
+| Feature Name                   | Trigger Action                                                                     | Expected Behaviour                                                                                                                                                                                   | Description                                                    | Screenshot                             |
+|-------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------|
+| Login                         | User clicks on 'Login' , enters credential and hits enter                          | User is authenticated and redirected to the Home Page                                                                                                                                                |                                                                | ![screenshot](screenshots/example.png) |
+| Launch Button                 | User clicks on the 'Launch' button                                                 | The WebGME interface opens up on 'localhost:8888'                                                                                                                                                    |                                                                | ![screenshot](screenshots/example.png) |
+| Plugins                       | Double click the node and then click on the blue play icon on the top left corner | Opens up a small screen with available plugins                                                                                                                                                       |                                                                | ![screenshot](screenshots/example.png) |
+| ImportSolumina' Plugin        | Click on the ImportSolumina plugin from the plugin options                         | Opens up a small screen to enter TDP name, select namespace and xml file. Then click on Run button to execute the plugin, and it creates the plan node.                                             |                                                                | ![screenshot](screenshots/example.png) |
+| ImportFaults' Plugin          | Click on the 'ImportFaults' plugin from the plugin options                         | Select the plan node, open the plugin panel, choose 'ImportFaults', select namespace and file, then click run to execute the plugin.                                                               | It populates the fault table based on the imported faults file. | ![screenshot](screenshots/example.png) |
+| LLMChecker' Plugin            | Click on the 'LLMChecker' plugin from the plugin options                           | Select the namespace and click run. It executes and downloads the faults to the host system's downloads folder.                                                                                      |                                                                |                                        |
+| RAGBasedAnalyzer' Plugin      | Click on the 'RAGBasedAnalyzer' plugin from the plugin options                     | Select the namespace and hit run. Executes the plugin and opens Gradio UI on 'localhost:7860'                                                                                                        |                                                                | ![screenshot](screenshots/example.png) |
+| Document Library              | Click on the 'Document Library' button                                             | Navigates to the Document Library page where users can add and view uploaded documents                                                                                                              |                                                                | ![screenshot](screenshots/example.png) |
+| Add Document button (Library) | Click on the Add Document button                                                   | Opens a form to add a document where user fills details and uploads an artifact                                                                                                                     |                                                                | ![screenshot](screenshots/example.png) |
+| View Button (Library)         | Click on the 'View' button from actions                                            | Downloads or opens the artifact in a new browser tab depending on file type                                                                                                                          |                                                                |                                        |
+| Edit Button (Library)         | Click on the 'Edit' button from actions                                            | Opens the form where user can edit metadata or upload a new document                                                                                                                                |                                                                | ![screenshot](screenshots/example.png) |
+| Delete Button (Library)       | Click on the 'Delete' button                                                       | Deletes the selected artifact                                                                                                                                                                       |                                                                |                                        |
+| TDP Library                   | Click on 'TDP Library' button on home screen                                       | Opens the TDP Library where users can view or add new TDPs                                                                                                                                          |                                                                | ![screenshot](screenshots/example.png) |
+| Add TDP button (TDP Library)  | Click on 'Add TDP' button                                                          | Opens a form to add TDPs where users fill required details and upload the TDP                                                                                                                       |                                                                | ![screenshot](screenshots/example.png) |
+| View Button (TDP Library)     | Click on the 'View' button from actions                                            | Downloads or opens the artifact in a new tab depending on file type                                                                                                                                 |                                                                |                                        |
+| Edit Button (TDP Library)     | Click on the 'Edit' button from actions                                            | Opens the form to edit metadata of existing TDP                                                                                                                                                     |                                                                | ![screenshot](screenshots/example.png) |
+| Delete Button (TDP Library)   | Click on the 'Delete' button from actions                                          | Deletes the selected TDP                                                                                                                                                                             |                                                                |                                        |
